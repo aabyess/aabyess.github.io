@@ -1,3 +1,71 @@
+div{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+html{
+    line-height: 1.15; 
+    /* 기본 행간 높이 */
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.main-content {
+    color: white;
+    font-size: 20px;
+}
+
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    /* 테두리 삭제 */
+    border-radius: 5px;
+    /* 테두리를 둥글게 */
+    position: relative;
+    /* 내 위치를 기준이로 이동해줌*/
+    top: 10px;
+    z-index: 5;
+}
+
+.body-background {
+    width: 80%;
+    max-width: 600px;
+    /* 최대폭 설정 */
+    height: 150px;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    /* 요소 내부의 여백을 설정하는 속성 */
+    position: relative;
+    top: -40px;
+    margin: auto;
+    /* 가운데 정렬 */
+    z-index: 1;
+    
+}
+
+
 .profile {
     width: 100px;
     display: block;
@@ -19,7 +87,7 @@
     height: 100px;
     background-color: cadetblue;
     margin: 30px;
-    padding: 40px; 
+    padding: 40px;
 }
 
 
@@ -29,23 +97,24 @@
     height: 50px;
     background-color: aquamarine;
 }
-.left-menu{
+
+.left-menu {
     width: 20%;
     height: 400px;
     background-color: cornflowerblue;
     /* float: left; 왼쪽 스타일링 */
-    display: inline-block; 
+    display: inline-block;
     vertical-align: bottom;
 }
 
-.right{
+.right {
     width: 80%;
     height: 400px;
     background: coral;
     display: inline-block;
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 100px;
     background-color: gray;
@@ -59,35 +128,38 @@
     margin-left: auto;
     margin-right: auto;
 }
-.blog-content{
+
+.blog-content {
     width: 80%;
     height: 200px;
     background: #eee;
     float: left;
 }
-.bolg-img{
+
+.bolg-img {
     width: 20%;
     height: 200px;
     background: yellow;
     float: left;
 }
 
-.blog-name{
+.blog-name {
     float: left;
-    
+
 }
 
 
-.navbar li{
+.navbar li {
     display: inline-block;
     width: 60px;
     text-align: center;
     background: #eee;
     padding: 10px;
     border-radius: 5px;
-   
+
 }
-.navbar li a{
+
+.navbar li a {
     font-size: 16px;
     text-decoration: none;
 }
