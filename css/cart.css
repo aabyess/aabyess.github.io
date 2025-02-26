@@ -52,3 +52,59 @@ span{
 .btn:hover {
     background-color: chocolate;
 }
+
+.btn:focus{
+    background-color: chartreuse;
+}
+
+.btn:active{
+    background-color: brown;
+}
+.input-test{
+    font-size: 20px;
+}
+
+.input-test:focus{
+    border: 2px solid red;
+}
+
+.custom-link{
+    text-decoration: none;
+}
+
+.custom-link:link{
+    color: aqua;
+}
+
+.custom-link:visited{
+    color: black;
+}
+
+.f-small {
+    font-size: 12px;
+}
+
+.f-mid{
+    font-size: 16px;
+}
+
+.f-lg{
+    font-size: 20px;
+}
+
+.main-btn{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+
