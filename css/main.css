@@ -14,12 +14,6 @@ body{
 }
 
 
-.test{
-    width: 100vw;
-    height: 100px;
-    background: gray;
-}
-
 
 
 
@@ -292,4 +286,27 @@ body{
 .navbar li a {
     font-size: 16px;
     text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .main-title{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-title{
+        font-size: 10px;
+    }
 }
